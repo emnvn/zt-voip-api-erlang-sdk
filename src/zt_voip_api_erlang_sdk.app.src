@@ -1,0 +1,13 @@
+{application, zt_voip_api_erlang_sdk,
+[
+    {description, "Zentech VoIP API Erlang SDK"},
+    {vsn, "2.0.0"},
+    {modules, [
+    ]},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env, []}
+]}.
