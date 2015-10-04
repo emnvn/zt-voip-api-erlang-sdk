@@ -11,9 +11,6 @@ create(Text,Voice) ->
 create(Text,Voice,Language) ->
 	create_command_tts(Text,Voice,Language).
 
-create(Text) ->
-	create_command_tts(Text).
-
 create(Text,Voice,Language,Engine) ->
 	create_command_tts(Text,Voice,Language,Engine).	
 	
